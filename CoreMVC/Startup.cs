@@ -47,7 +47,7 @@ namespace GoC.WebTemplate.CoreMVC
 
             services.ConfigureGoCTemplateRequestLocalization();
 
-            services.AddRazorPages().AddRazorRuntimeCompilation();
+            services.AddRazorPages();//.AddRazorRuntimeCompilation();
 
         }
 

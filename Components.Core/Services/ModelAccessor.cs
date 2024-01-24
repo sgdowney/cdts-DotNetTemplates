@@ -1,6 +1,7 @@
 ﻿using GoC.WebTemplate.Components.Configs;
 using GoC.WebTemplate.Components.Configs.Schemas;
 using GoC.WebTemplate.Components.Core.Utils.Caching;
+
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;
@@ -12,7 +13,7 @@ namespace GoC.WebTemplate.Components.Core.Services
     {
         public IModel Model { get; }
 
-        public ModelAccessor(IMemoryCache memoryCache, IHostingEnvironment hostingEnvironment, IConfiguration configuration)
+        public ModelAccessor(IMemoryCache memoryCache, IWebHostEnvironment hostingEnvironment, IConfiguration configuration)
         {
             var configs = new GocWebTemplateConfigurationSection();
 

@@ -1,15 +1,15 @@
 ﻿using GoC.WebTemplate.Components.Utils.Caching;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Caching.Memory;
 using System.IO;
+using Microsoft.AspNetCore.Hosting;
 
 namespace GoC.WebTemplate.Components.Core.Utils.Caching
 {
     public class FileContentMemoryCacheProvider : MemoryCacheProvider<string>, IFileContentCacheProvider
     {
-        private readonly IHostingEnvironment HostingEnvironment;
+        private readonly IWebHostEnvironment HostingEnvironment;
 
-        public FileContentMemoryCacheProvider(IMemoryCache cache, IHostingEnvironment hostingEnvironment)
+        public FileContentMemoryCacheProvider(IMemoryCache cache, IWebHostEnvironment hostingEnvironment)
             : base(cache)
         {
             HostingEnvironment = hostingEnvironment;
