@@ -336,7 +336,7 @@ namespace GoC.WebTemplate.Components.Utils
                     ? Constants.FRENCH_CULTURE
                     : Constants.ENGLISH_CULTURE);
 
-            string url = string.Concat("?", Uri.EscapeUriString(nameValues.ToString()));
+            string url = string.Concat("?", Uri.EscapeDataString(nameValues.ToString()));
 
             return url;
         }
