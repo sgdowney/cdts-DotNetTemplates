@@ -355,3 +355,8 @@ MigrationBackup/
 # Duplicate project files
 GoC.WebTemplate.MVC.Sample/Views/GoC.WebTemplate
 GoC.WebTemplate.WebForms.Sample/GoC.WebTemplate
+/deploy.cmd
+/deploy.ps1
+/nuget.exe
+/package.cmd
+/package.ps1
