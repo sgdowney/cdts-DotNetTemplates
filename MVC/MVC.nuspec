@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>GoC.WebTemplate-MVC</id>
-    <version>2.0.0</version>
+    <version>5.0.0</version>
     <description>The MVC Template as part of the DotNetTemplates for the .NET Framework that incorporates SCWASI and the CDTS, written in C#</description>
     <authors>Solution Design Services</authors>
     <owners>Employment and Social Development Canada - GoC</owners>
@@ -11,7 +11,21 @@
     <copyright>Copyright (c) Her Majesty the Queen in Right of Canada, as represented by the Employment and Social Development Canada, 2019</copyright>
     <tags>SCWASI CDN Template SDS SF Web Template MVC Framework</tags>
     <dependencies>
-      <dependency id="GoC.WebTemplate-Components.Framework" version="2.0.0" />
+      <dependency id="GoC.WebTemplate-Components.Framework" version="5.0.0" />
+      <dependency id="Microsoft.AspNet.Mvc" version="5.3.0" />
+      <dependency id="Microsoft.AspNet.Razor" version="3.3.0" />
+      <dependency id="Microsoft.AspNet.WebPages" version="3.3.0" />
+      <dependency id="Microsoft.Web.Infrastructure" version="2.0.0" />
+      <dependency id="Newtonsoft.Json" version="13.0.3" />
+      <dependency id="System.Buffers" version="4.5.1" />
+      <dependency id="System.Configuration.ConfigurationManager" version="6.0.1" />
+      <dependency id="System.Memory" version="4.5.5" />
+      <dependency id="System.Numerics.Vectors" version="4.5.0" />
+      <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" />
+      <dependency id="System.Security.AccessControl" version="6.0.0" />
+      <dependency id="System.Security.Permissions" version="6.0.0" />
+      <dependency id="System.Security.Principal.Windows" version="5.0.0" />
+      <dependency id="System.Text.Encodings.Web" version="6.0.0" />
     </dependencies>
   </metadata>
   <files>

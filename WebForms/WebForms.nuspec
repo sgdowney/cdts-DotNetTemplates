@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>GoC.WebTemplate-WebForms</id>
-    <version>2.0.0</version>
+    <version>5.0.0</version>
     <description>The WebFomrs Template as part of the DotNetTemplates for the .NET Framework that incorporates SCWASI and the CDTS, written in C#</description>
     <authors>Solution Design Services</authors>
     <owners>Employment and Social Development Canada - GoC</owners>
@@ -11,7 +11,12 @@
     <copyright>Copyright (c) Her Majesty the Queen in Right of Canada, as represented by the Employment and Social Development Canada, 2019</copyright>
     <tags>SCWASI CDN Template SDS SF Web Template WebForms Framework</tags>
     <dependencies>
-      <dependency id="GoC.WebTemplate-Components.Framework" version="2.0.0" />
+      <dependency id="GoC.WebTemplate-Components.Framework" version="5.0.0" />
+      <dependency id="System.Buffers" version="4.5.1" />
+      <dependency id="System.Memory" version="4.5.5" />
+      <dependency id="System.Numerics.Vectors" version="4.5.0" />
+      <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" />
+      <dependency id="System.Text.Encodings.Web" version="6.0.0" />
     </dependencies>
   </metadata>
   <files>

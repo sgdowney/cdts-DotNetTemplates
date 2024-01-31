@@ -9,7 +9,7 @@ namespace GoC.WebTemplate.MVC.Sample.Controllers
         {
             //set up theme
             WebTemplateModel.Settings.Environment = "ESDC_PROD";
-            WebTemplateModel.Settings.UseHttps = false;
+            WebTemplateModel.Settings.UseHttps = true;
 
             //custom intranet title
             WebTemplateModel.IntranetTitle = new IntranetTitle

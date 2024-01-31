@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>net6.0</TargetFrameworks>
@@ -11,7 +11,7 @@
     <PackageIconUrl>https://gccode.ssc-spc.gc.ca/uploads/-/system/project/avatar/4622/Capture.PNG</PackageIconUrl>
     <PackageTags>SCWASI CDN Template SDS SF Web Core</PackageTags>
     <AssemblyVersion>2.0.*</AssemblyVersion>
-    <Version>2.0.0</Version>
+<Version>5.0.0</Version>
     <FileVersion>2.0.0.0</FileVersion>
     <Deterministic>False</Deterministic>
     <SignAssembly>False</SignAssembly>

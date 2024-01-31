@@ -13,12 +13,14 @@
     <PackageIconUrl>https://gccode.ssc-spc.gc.ca/uploads/-/system/project/avatar/4622/Capture.PNG</PackageIconUrl>
     <PackageTags>SCWASI CDN Template SDS SF Web Core</PackageTags>
     <AssemblyVersion>2.0.*</AssemblyVersion>
-    <Version>2.0.0</Version>
+<Version>5.0.0</Version>
     <FileVersion>2.0.0.0</FileVersion>
     <Deterministic>False</Deterministic>
     <AssemblyName>GoC.WebTemplate.Components</AssemblyName>
     <RootNamespace>GoC.WebTemplate.Components</RootNamespace>
     <OutputType>Library</OutputType>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <IsPackable>True</IsPackable>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

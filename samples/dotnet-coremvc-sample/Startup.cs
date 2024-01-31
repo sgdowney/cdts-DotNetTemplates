@@ -37,7 +37,7 @@ namespace GoC.WebTemplate.CoreMVC.Sample
                 options.Cookie.IsEssential = true;
             });
 
-            services.AddRazorPages().AddRazorRuntimeCompilation();
+            services.AddRazorPages();
 
             services.AddModelAccessor();
             services.ConfigureGoCTemplateRequestLocalization();

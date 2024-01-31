@@ -1,0 +1,22 @@
+﻿@namespace Core.Sample.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@inject GoC.WebTemplate.Components.Core.Services.ModelAccessor ModelAccessor
+
+@{
+    GoC.WebTemplate.Components.IModel WebTemplateModel;
+    WebTemplateModel = ModelAccessor.Model;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

@@ -24,13 +24,14 @@ namespace Core.Sample
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.ConfigureGoCTemplateRequestLocalization();
             services.AddModelAccessor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseRequestLocalization(CultureConfiguration.GetLocalizationOptions());
+            //app.UseRequestLocalization(CultureConfiguration.GetLocalizationOptions());
 
             if (env.IsDevelopment())
             {
